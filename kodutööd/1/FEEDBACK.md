@@ -1,0 +1,3 @@
+1.b : It would be good to already specify the argument 10 in the function, as in 10-nearest neighbors. Then you won't have to hardcode it in. :)
+2.a : Here a slightly different thing was asked. Currently each column is a random sample of all images that were predicted the label that is the column number - regardless if the prediction was right or wrong. But what was asked was that each column has images where the true label is the column number and where the predicted label doesn't match this.
+4.b : Actually in here there is no need to do the train-val split. After finding the best hyperparameter (currently tree depth) we can retrain the model on the whole training set with that parameter (that's the model that will be in use so to say).
